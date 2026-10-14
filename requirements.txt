@@ -1,0 +1,9 @@
+anthropic
+beautifulsoup4
+matplotlib
+numpy
+pandas
+python-docx
+requests
+sec-edgar-downloader
+yfinance

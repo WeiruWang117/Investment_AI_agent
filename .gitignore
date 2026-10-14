@@ -1,0 +1,35 @@
+# Credentials and private local backups
+.env
+.env.*
+!.env.example
+.local-backup/
+*.pem
+*.key
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.ipynb_checkpoints/
+# Downloaded datasets, caches and generated reports
+*_cache/
+SEC filings/
+Financial data/
+Macro data/
+News data/
+Earning calls/
+parsed_*/
+sec_analysis/
+daily_signals/
+portfolio/
+backtest_results/
+Agent报告/
+output*/
+*.csv
+*.pdf
+*.docx
+*.html
+_json_parse_failure.txt
+# Notebooks may contain credentials or private execution outputs
+*.ipynb
